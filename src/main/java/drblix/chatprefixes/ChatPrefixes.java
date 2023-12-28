@@ -114,6 +114,9 @@ public final class ChatPrefixes extends JavaPlugin {
                 player.sendMessage(Component.text("Player already has a prefix! Remove the one they currently have before assigning another one"));
                 return false;
             }
+
+            player.sendMessage(Component.text(target.getName() + " has been successfully assigned the prefix ")
+                    .append(Component.text(borderStart + tagName + borderEnd, TextColor.fromHexString(colour))));
         }
         else if (command.getName().equals("prefix-remove")) {
             // player must have a prefix assigned
@@ -121,6 +124,8 @@ public final class ChatPrefixes extends JavaPlugin {
                 player.sendMessage(Component.text("This player does not currently have a prefix assigned!", NamedTextColor.RED));
                 return false;
             }
+
+            player.sendMessage(Component.text(target.getName() + " has had their prefix successfully removed"));
         }
 
         return true;
