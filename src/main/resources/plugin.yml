@@ -1,0 +1,13 @@
+name: ChatPrefixes
+description: "A plugin that gives players tags in the server chat"
+version: '1.0'
+main: drblix.chatprefixes.ChatPrefixes
+api-version: '1.20'
+
+commands:
+  prefix-add:
+    description: "Adds a prefix to the specified player, allowing you to choose the name and colour"
+    usage: "/<command> <player> <tag-name> <colour>"
+  prefix-remove:
+    description: "Removes a prefix from the specified player"
+    usage: "/<command> <player>"

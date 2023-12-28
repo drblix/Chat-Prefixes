@@ -1,0 +1,18 @@
+# Configuration file for the plugin Chat Prefixes
+# Created by Drblix
+
+# prefix-border info
+# The first character is used at the start of the tag name
+# The second character is used at the end of the tag name
+prefix-border: "[]"
+
+# Key must the player's UUID
+# Tag name must be a string
+# Colour must be in hexadecimal format, starting with a '#' in front
+
+# Example:
+# 1f9f0a5b-c4b4-430b-bf7e-146bb58cedfd:
+#   tag-name: OWNER
+#   colour: #ff0000
+
+prefixes: {}
