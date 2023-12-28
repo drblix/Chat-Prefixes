@@ -1,6 +1,6 @@
 name: ChatPrefixes
 description: "A plugin that gives players tags in the server chat"
-version: '1.0'
+version: '1.01'
 main: drblix.chatprefixes.ChatPrefixes
 api-version: '1.20'
 
